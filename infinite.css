@@ -1,0 +1,271 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    height: 45px;
+    background-color: #333;
+    position: fixed;
+    width: 100%;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 16px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.navbar ul li:hover {
+    background-color: #4d4d50;
+    padding: 16px;
+}
+
+.maytunes-rasm {
+    background-image: url(showcase.jpeg);
+    background-position: center;
+    background-size: cover;
+    height: 640px;
+    text-align: center;
+}
+
+.maytunes-p1 {
+    font-size: 60px;
+    color: white;
+    padding-top: 160px;
+}
+
+.maytunes-p2 {
+    font-size: 35px;
+    color: white;
+    margin-top: 35px;
+}
+
+.maytunes-p3 {
+    font-size: 20px;
+    color: white;
+    margin-top: 30px;
+}
+/* music*/
+.music {
+    height: 1140px;
+    background-color: #252529;
+}
+
+.music i {
+    color: white;
+    display: inline-block;
+    margin-left: 575px;
+    margin-top: 50px;
+}
+
+.music-p1 {
+    display: inline-block;
+    font-size: 50px;
+    color: white;
+}
+
+.music-p2 {
+    font-size: 35px;
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.music-p3 {
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 22px;
+}
+
+.music a {
+    color: white;
+    background-color: #b90415;
+    padding: 17px;
+    font-size: 17px;
+    text-decoration: none;
+    margin-left: 570px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.music a:hover {
+    background-color: #d3071b;
+}
+
+.music a:active {
+    background-color: chocolate;
+    color: white;
+}
+
+.music-p4 {
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+}
+
+.music img {
+    height: 700px;
+    margin-left: 100px;
+    margin-top: 15px;
+}
+/*video*/
+
+.videi{
+    height: 1250px;
+    background-color: #f4f4f4;    
+}
+
+.videi-p1{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.videi-p2{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.videi a{
+    background-color: #103063;
+    padding: 17px;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 600px;
+    margin-top: 20px;
+}
+
+.videi a:hover{
+    background-color: #143f85;
+}
+
+.a-world{
+    background-image: url(section-bg.jpeg);
+    height: 500px;
+    background-position: bottom;
+    background-size: cover;
+    text-align: center;
+}
+
+.a-world-p1{
+    color: white;
+    font-size: 34px;
+    padding-top: 150px;
+}
+
+.a-world-p2{
+    color: white;
+    font-size: 22px;
+    padding-top: 35px;
+    line-height: 35px;
+}
+
+/*gift Cards*/
+
+.gift{
+    height: 500px;
+    background-color: #f4f4f4;
+}
+
+.gift-cards-image img{
+    height: 400px;
+    margin-left: 90px;
+    margin-top: 25px;
+}
+
+.gift-cards{
+    margin-left: 700px;
+    margin-top: -385px;
+}
+
+.gift-cards-p1{
+    color: black;
+    font-size: 25px;
+}
+
+.gift-cards-p2{
+    color: black;
+    margin-top: 30px;
+    line-height: 25px;
+    font-size: 17px;
+}
+
+.gift-cards-p3{
+    margin-top: 20px;
+}
+
+.gift-cards div{
+    height: 1.4px;
+    width: 580px;
+    background-color: #333;
+    margin-top: 20px;
+}
+
+.gift-cards-p4{
+    margin-top: 20px;
+    color: #103063;
+    font-size: 18px;
+}
+
+.footer-container{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+}
+
+footer{
+    height: 250px;
+    background-color: #252529;
+}
+.footer-1{
+    padding-left: 65px;
+}
+.footer-p1{
+    font-size: 22px;
+padding-top: 45px;
+color: white;
+}
+
+.footer-border{
+    height: 1.4px;
+    width: 224px;
+    background-color: #cccccc;
+    margin-top: 18px;
+}
+
+.footer-p2{
+    margin-top: 18px;
+    color: #cccccc;
+    line-height: 22px;
+}
+
+.footer-1-div{
+    background-color: #333;
+    height: 48px;
+    margin-top: 32px;
+}
+
+.footer-1-div p{
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.footer-p2:hover{
+    cursor: pointer;
+}
+
+.gift-cards-p4:hover{
+    cursor: pointer;
+}
